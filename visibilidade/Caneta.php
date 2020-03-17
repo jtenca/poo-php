@@ -1,6 +1,4 @@
 <?php
-// Classes e Objetos
-
 class Caneta {
     // Atributos
 

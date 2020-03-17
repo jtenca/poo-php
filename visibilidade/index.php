@@ -12,7 +12,7 @@
   
         require_once 'Caneta.php';
 
-        $c1 = new Caneta;
+        $c1 = new Caneta();
         $c1->modelo = "BIC Cristal";
         $c1->tampar();
         $c1->rabiscar();
