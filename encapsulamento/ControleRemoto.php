@@ -54,7 +54,7 @@ class ControleRemoto  implements Controlador {
         echo "<br>Volume: " . $this->getVolume();
 
         for ($i=0; $i <= $this->getVolume(); $i+= 10) {
-            echo "|";
+            echo " | ";
         }
 
         echo "<br>";
@@ -96,7 +96,7 @@ class ControleRemoto  implements Controlador {
     }
 
     public function pause() {
-        if ($this->getLigado() && !($this->getTocando())) {
+        if ($this->getLigado() && this->getTocando()) {
             $this->setTocando(false);
         }
     }
