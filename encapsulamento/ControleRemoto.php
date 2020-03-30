@@ -96,7 +96,7 @@ class ControleRemoto  implements Controlador {
     }
 
     public function pause() {
-        if ($this->getLigado() && this->getTocando()) {
+        if ($this->getLigado() && $this->getTocando()) {
             $this->setTocando(false);
         }
     }
