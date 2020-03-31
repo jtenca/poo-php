@@ -14,27 +14,27 @@ class ControleRemoto  implements Controlador {
         $this->tocando = false;
     }
 
-    function getVolume() {
+    private function getVolume() {
         return $this->volume;
     }
 
-    function getLigado() {
+    private function getLigado() {
         return $this->ligado;
     }
 
-    function getTocando() {
+    private function getTocando() {
         return $this->tocando;
     }
 
-    function setVolume($volume) {
+    private function setVolume($volume) {
         $this->volume = $volume;
     }
 
-    function setLigado($ligado) {
+    private function setLigado($ligado) {
         $this->ligado = $ligado;
     }
 
-    function setTocando($tocando) {
+    private function setTocando($tocando) {
         $this->tocando = $tocando;
     }
 
